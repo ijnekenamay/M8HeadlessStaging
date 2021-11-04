@@ -26,6 +26,7 @@ Any help with beta testing and design would be greatly appreciated!
 ***
 The setup for using the m8c and Raspberry Pi can be seen in detail in the littlescale video.
 [![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
+
 Since this video shows video and audio output from the HDMI port, we will assume that audio output is available using a 3.5mm stereo jack if you use a touch display with audio output, available from [Aliexpress](https://aliexpress.com/item/4000380101537.html).
 
 
@@ -44,6 +45,7 @@ I plan to implement them as shown in the schematic below.
 ***
 Key emulation (key mapping) using the GPIO pins of the Raspberry Pi is also currently in the hypothetical stage.
 There are plenty of people practicing something similar with the Retropi!
+
 [![GIPO Key Mapping](http://img.youtube.com/vi/BV_nVu8Be7M/0.jpg)](https://www.youtube.com/watch?v=BV_nVu8Be7M)
 
 
