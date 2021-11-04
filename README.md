@@ -22,7 +22,7 @@ Any help with beta testing and design would be greatly appreciated!
 
 
 ***
-### Client and Display
+### Task1 Client and Display
 ***
 The setup for using the m8c and Raspberry Pi can be seen in detail in the littlescale video.
 [![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
@@ -31,7 +31,7 @@ Since this video shows video and audio output from the HDMI port, we will assume
 
 
 ***
-### MIDI IN&OUT
+### Task2 MIDI IN&OUT
 ***
 As has been discussed several times on Dirtywave's Discord, it seems possible to implement MIDI IN and OUT in a Headless environment.
 The developer, trash80, commented "with TX1 being pin 1, and RX1 being pin 28".
@@ -41,7 +41,7 @@ I plan to implement them as shown in the schematic below.
 
 
 ***
-### Key Switch
+### Task3 Key Switch
 ***
 Key emulation (key mapping) using the GPIO pins of the Raspberry Pi is also currently in the hypothetical stage.
 There are plenty of people practicing something similar with the Retropi!
@@ -50,7 +50,7 @@ There are plenty of people practicing something similar with the Retropi!
 
 
 ***
-### Battery Module
+### Task4 Battery Module
 ***
 I'd like to use the tiny little battery charging modules that [Aliexpress](https://ja.aliexpress.com/item/4001196670805.html) sells so that I can seamlessly connect the power supply, PSU, and charging.
 I think I will agonize over where to put the batteries!
