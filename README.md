@@ -11,6 +11,7 @@ Any help with beta testing and design would be greatly appreciated!
 - [ ] Test Build
 
 ## Design Outline
+![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image1.png)
 * M8 Headless will be installed on teensy4.1.
 * The client software for Headless is [m8c](https://github.com/laamaa/m8c), which is published by laamaa.
 * The client computer will be a Raspberry Pi3 Model B+.
