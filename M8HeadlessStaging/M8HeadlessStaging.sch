@@ -456,4 +456,10 @@ Text GLabel 8300 6150 0    50   Input ~ 0
 GND
 Text GLabel 7500 4150 2    50   Input ~ 0
 UP
+Text GLabel 750  3000 0    50   Input ~ 0
+RX1
+Text GLabel 750  1300 0    50   Input ~ 0
+TX1
+Text GLabel 2950 1300 2    50   Input ~ 0
++3V3
 $EndSCHEMATC
