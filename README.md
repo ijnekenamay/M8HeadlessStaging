@@ -45,6 +45,7 @@ I plan to implement them as shown in the schematic below.
 ***
 Key emulation (key mapping) using the GPIO pins of the Raspberry Pi is also currently in the hypothetical stage.
 There are plenty of people practicing something similar with the Retropi!
+For the keyswitch itself, I will use the same one as the M8 original.
 
 [![GIPO Key Mapping](http://img.youtube.com/vi/BV_nVu8Be7M/0.jpg)](https://www.youtube.com/watch?v=BV_nVu8Be7M)
 
