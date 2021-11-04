@@ -1,0 +1,225 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy4.1 U1
+U 1 1 6183E84F
+P 2600 4100
+F 0 "U1" H 2600 6665 50  0000 C CNN
+F 1 "Teensy4.1" H 2600 6574 50  0000 C CNN
+F 2 "" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4500 50  0001 C CNN
+	1    2600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J1
+U 1 1 618469B5
+P 5700 1800
+F 0 "J1" H 5420 1733 50  0000 R CNN
+F 1 "MIDI OUT" H 5420 1824 50  0000 R CNN
+F 2 "" H 5700 1800 50  0001 C CNN
+F 3 "~" H 5700 1800 50  0001 C CNN
+	1    5700 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61846E3E
+P 5500 1900
+F 0 "#PWR?" H 5500 1650 50  0001 C CNN
+F 1 "GND" H 5505 1727 50  0000 C CNN
+F 2 "" H 5500 1900 50  0001 C CNN
+F 3 "" H 5500 1900 50  0001 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61847A37
+P 5050 1800
+F 0 "R1" V 4843 1800 50  0000 C CNN
+F 1 "47R" V 4934 1800 50  0000 C CNN
+F 2 "digikey-footprints:0805" V 4980 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1800 5200 1800
+Wire Wire Line
+	4900 1800 4800 1800
+Text GLabel 4800 1800 0    50   Input ~ 0
++3V3
+Wire Wire Line
+	5500 1700 5500 1300
+$Comp
+L Device:R R2
+U 1 1 61849BE4
+P 5500 1150
+F 0 "R2" H 5430 1104 50  0000 R CNN
+F 1 "47R" H 5430 1195 50  0000 R CNN
+F 2 "digikey-footprints:0805" V 5430 1150 50  0001 C CNN
+F 3 "~" H 5500 1150 50  0001 C CNN
+	1    5500 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1000 5500 900 
+Text GLabel 5500 900  1    50   Input ~ 0
+TX1
+$Comp
+L Connector:AudioJack3 J2
+U 1 1 6184AB99
+P 4800 3550
+F 0 "J2" H 4520 3483 50  0000 R CNN
+F 1 "MIDI IN" H 4520 3574 50  0000 R CNN
+F 2 "" H 4800 3550 50  0001 C CNN
+F 3 "~" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6184B62D
+P 5000 3450
+F 0 "#PWR?" H 5000 3200 50  0001 C CNN
+F 1 "GND" H 5005 3277 50  0000 C CNN
+F 2 "" H 5000 3450 50  0001 C CNN
+F 3 "" H 5000 3450 50  0001 C CNN
+	1    5000 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:6N138 U1
+U 1 1 6184F018
+P 6150 3500
+F 0 "U1" H 6150 3967 50  0000 C CNN
+F 1 "6N138" H 6150 3876 50  0000 C CNN
+F 2 "" H 6440 3200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf" H 6440 3200 50  0001 C CNN
+	1    6150 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3400
+Wire Wire Line
+	6450 3300 6750 3300
+Text GLabel 7150 3300 2    50   Input ~ 0
++3V3
+$Comp
+L Device:C C1
+U 1 1 6185158F
+P 6750 3050
+F 0 "C1" H 6865 3096 50  0000 L CNN
+F 1 "0.1uF" H 6865 3005 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 6788 2900 50  0001 C CNN
+F 3 "~" H 6750 3050 50  0001 C CNN
+	1    6750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3200 6750 3300
+Connection ~ 6750 3300
+Wire Wire Line
+	6750 3300 7150 3300
+$Comp
+L power:GND #PWR?
+U 1 1 61852C15
+P 6750 2900
+F 0 "#PWR?" H 6750 2650 50  0001 C CNN
+F 1 "GND" H 6755 2727 50  0000 C CNN
+F 2 "" H 6750 2900 50  0001 C CNN
+F 3 "" H 6750 2900 50  0001 C CNN
+	1    6750 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 3600 7050 3600
+Text GLabel 7150 3600 2    50   Input ~ 0
+RX1
+$Comp
+L Device:R R3
+U 1 1 61853BB2
+P 7050 3750
+F 0 "R3" H 6980 3704 50  0000 R CNN
+F 1 "470R" H 6980 3795 50  0000 R CNN
+F 2 "digikey-footprints:0805" V 6980 3750 50  0001 C CNN
+F 3 "~" H 7050 3750 50  0001 C CNN
+	1    7050 3750
+	-1   0    0    1   
+$EndComp
+Connection ~ 7050 3600
+Wire Wire Line
+	7050 3600 7150 3600
+$Comp
+L power:GND #PWR?
+U 1 1 61855D65
+P 6650 3700
+F 0 "#PWR?" H 6650 3450 50  0001 C CNN
+F 1 "GND" V 6655 3572 50  0000 R CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 3700 6450 3700
+Text GLabel 7050 3900 3    50   Input ~ 0
++3V3
+Wire Wire Line
+	5000 3550 5150 3550
+Wire Wire Line
+	5150 3550 5150 3400
+Wire Wire Line
+	5150 3400 5200 3400
+Wire Wire Line
+	5000 3650 5150 3650
+$Comp
+L Device:D D1
+U 1 1 61857F77
+P 5650 3550
+F 0 "D1" V 5604 3630 50  0000 L CNN
+F 1 "1n4148" V 5695 3630 50  0000 L CNN
+F 2 "digikey-footprints:SOD-123" H 5650 3550 50  0001 C CNN
+F 3 "~" H 5650 3550 50  0001 C CNN
+	1    5650 3550
+	0    1    1    0   
+$EndComp
+Connection ~ 5650 3400
+Wire Wire Line
+	5650 3400 5850 3400
+Wire Wire Line
+	5150 3650 5150 3700
+Wire Wire Line
+	5150 3700 5650 3700
+Wire Wire Line
+	5850 3700 5850 3600
+Connection ~ 5650 3700
+Wire Wire Line
+	5650 3700 5850 3700
+$Comp
+L Device:R R4
+U 1 1 6185A07D
+P 5350 3400
+F 0 "R4" V 5557 3400 50  0000 C CNN
+F 1 "220R" V 5466 3400 50  0000 C CNN
+F 2 "digikey-footprints:0805" V 5280 3400 50  0001 C CNN
+F 3 "~" H 5350 3400 50  0001 C CNN
+	1    5350 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 3400 5650 3400
+$EndSCHEMATC
