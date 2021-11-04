@@ -2,6 +2,7 @@
 This is a DIY project to push the [Dirtywave M8 Headless](https://github.com/Dirtywave/M8HeadlessFirmware) into a PCB and make it handheld.
 We are currently in the idea sketch stage.
 Any help with beta testing and design would be greatly appreciated!
+I haven't actually tried Teensy yet due to short of semiconductors...
 
 ## Now progress
 - [x] Idea sketch
