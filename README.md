@@ -37,7 +37,7 @@ Since this video shows video and audio output from the HDMI port, we will assume
 ### Task2 MIDI IN&OUT
 ***
 As has been discussed several times on Dirtywave's Discord, it seems possible to implement MIDI IN and OUT in a Headless environment.
-The developer, trash80, commented "with TX1 being pin 1, and RX1 being pin 28".
+The developer, trash80, commented "MIDI in is pin 28, MIDI out is pin 1, it's enabled".
 I plan to implement them as shown in the schematic below.
 
 ![midi schematic](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/midi_in_out.png)
