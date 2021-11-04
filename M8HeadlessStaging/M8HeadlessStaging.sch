@@ -409,8 +409,6 @@ F 3 "" H 10150 4700 50  0001 C CNN
 	1    10150 4700
 	0    1    1    0   
 $EndComp
-Text GLabel 7500 4150 2    50   Input ~ 0
-UP
 Text GLabel 8500 4150 2    50   Input ~ 0
 DOWN
 Text GLabel 9500 4150 2    50   Input ~ 0
@@ -425,28 +423,6 @@ Text GLabel 9500 4700 2    50   Input ~ 0
 OPTION
 Text GLabel 10550 4700 2    50   Input ~ 0
 EDIT
-$Comp
-L Connector:Conn_01x10_Female J4
-U 1 1 6188BFA7
-P 9100 5650
-F 0 "J4" H 9000 6300 50  0000 C CNN
-F 1 "Key_raspiGPIO" H 9000 6200 50  0000 C CNN
-F 2 "" H 9100 5650 50  0001 C CNN
-F 3 "~" H 9100 5650 50  0001 C CNN
-	1    9100 5650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male J3
-U 1 1 6188A148
-P 8500 5650
-F 0 "J3" H 8650 6300 50  0000 R CNN
-F 1 "Key_frontpanel" H 8850 6200 50  0000 R CNN
-F 2 "" H 8500 5650 50  0001 C CNN
-F 3 "~" H 8500 5650 50  0001 C CNN
-	1    8500 5650
-	-1   0    0    -1  
-$EndComp
 Text GLabel 8300 5250 0    50   Input ~ 0
 UP
 Text GLabel 8300 5350 0    50   Input ~ 0
@@ -463,48 +439,21 @@ Text GLabel 8300 5850 0    50   Input ~ 0
 OPTION
 Text GLabel 8300 5950 0    50   Input ~ 0
 EDIT
-$Comp
-L power:GND #PWR?
-U 1 1 6189A4B2
-P 8300 6150
-F 0 "#PWR?" H 8300 5900 50  0001 C CNN
-F 1 "GND" V 8305 6022 50  0000 R CNN
-F 2 "" H 8300 6150 50  0001 C CNN
-F 3 "" H 8300 6150 50  0001 C CNN
-	1    8300 6150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8300 6050 8300 6150
-Connection ~ 8300 6150
-Wire Wire Line
-	9300 6050 9300 6150
 $Comp
-L power:GND #PWR?
-U 1 1 6189C06B
-P 9300 6150
-F 0 "#PWR?" H 9300 5900 50  0001 C CNN
-F 1 "GND" V 9305 6022 50  0000 R CNN
-F 2 "" H 9300 6150 50  0001 C CNN
-F 3 "" H 9300 6150 50  0001 C CNN
-	1    9300 6150
-	0    -1   -1   0   
+L Connector:Conn_01x10_Male J3
+U 1 1 6188A148
+P 8500 5650
+F 0 "J3" H 8650 6300 50  0000 R CNN
+F 1 "Key_frontpanel" H 8850 6200 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 8500 5650 50  0001 C CNN
+F 3 "~" H 8500 5650 50  0001 C CNN
+	1    8500 5650
+	-1   0    0    -1  
 $EndComp
-Connection ~ 9300 6150
-Text GLabel 9300 5950 2    50   Input ~ 0
-EDIT
-Text GLabel 9300 5850 2    50   Input ~ 0
-OPTION
-Text GLabel 9300 5750 2    50   Input ~ 0
-PLAY
-Text GLabel 9300 5650 2    50   Input ~ 0
-SHIFT
-Text GLabel 9300 5550 2    50   Input ~ 0
-LEFT
-Text GLabel 9300 5450 2    50   Input ~ 0
-RIGHT
-Text GLabel 9300 5350 2    50   Input ~ 0
-DOWN
-Text GLabel 9300 5250 2    50   Input ~ 0
+Text GLabel 8300 6150 0    50   Input ~ 0
+GND
+Text GLabel 7500 4150 2    50   Input ~ 0
 UP
 $EndSCHEMATC
