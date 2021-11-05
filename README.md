@@ -33,8 +33,7 @@ I haven't actually tried Teensy yet due to short of semiconductors...
 ---
 
 The setup for using the m8c and Raspberry Pi can be seen in detail in the littlescale video.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CqUvGfdyEnM" frameborder="0" allowfullscreen></iframe>
+[![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
 
 Since this video shows video and audio output from the HDMI port, we will assume that audio output is available using a 3.5mm stereo jack if you use a touch display with audio output, available from [Aliexpress](https://aliexpress.com/item/4000380101537.html).
 
@@ -60,7 +59,7 @@ Key emulation (key mapping) using the GPIO pins of the Raspberry Pi is also curr
 There are plenty of people practicing something similar with the Retropi!
 For the keyswitch itself, I will use the same one as the M8 original.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BV_nVu8Be7M" frameborder="0" allowfullscreen></iframe>
+[![GIPO Key Mapping](http://img.youtube.com/vi/BV_nVu8Be7M/0.jpg)](https://www.youtube.com/watch?v=BV_nVu8Be7M)
 
 ---
 
@@ -78,5 +77,4 @@ I think I will agonize over where to put the batteries!
 ---
 
 James' post addresses some of my concerns about this project!
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjames.f.ellis%2Fposts%2F10159408620724000&show_text=true&width=500" width="500" height="590" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image2.jpg)
