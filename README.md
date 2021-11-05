@@ -1,5 +1,6 @@
 # M8 Headless Staging
 
+![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/head.jpg)
 This is a DIY project to push the [Dirtywave M8 Headless](https://github.com/Dirtywave/M8HeadlessFirmware) into a PCB and make it handheld.
 We are currently in the idea sketch stage.
 Any help with beta testing and design would be greatly appreciated!
