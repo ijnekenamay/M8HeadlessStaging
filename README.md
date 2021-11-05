@@ -8,6 +8,7 @@ I haven't actually tried Teensy yet due to short of semiconductors...
 ## Now progress
 
 - [x] Idea sketch
+- [x] Draw proto Schematics
 - [ ] Proto type
 - [ ] Design PCB
 - [ ] Fabrication PCB
