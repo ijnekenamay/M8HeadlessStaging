@@ -76,6 +76,6 @@ I think I will agonize over where to put the batteries!
 
 ---
 
-James' post addresses some of my concerns about this project!
+James' work has addressed some of the concerns of this project!
 
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image2.jpg" width="320">
