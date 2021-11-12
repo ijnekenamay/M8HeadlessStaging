@@ -10,6 +10,7 @@ I haven't actually tried Teensy yet due to short of semiconductors...
 
 - [x] Idea sketch
 - [x] Draw proto Schematics
+- [x] Design proto PCB
 - [ ] Proto type
 - [ ] Design PCB
 - [ ] Fabrication PCB
@@ -18,7 +19,8 @@ I haven't actually tried Teensy yet due to short of semiconductors...
 ## Design Outline
 
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image1.jpg)
-
+![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image3.jpg)
+![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image4.jpg)
 - M8 Headless will be installed on teensy4.1.
 - The client software for Headless is [m8c](https://github.com/laamaa/m8c), which is published by laamaa.
 - The client computer will be a Raspberry Pi3 Model B+.
@@ -81,3 +83,4 @@ I think I will agonize over where to put the batteries!
 James' work has addressed some of the concerns of this project!
 
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image2.jpg" width="320">
+<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image5.jpg" width="420">
