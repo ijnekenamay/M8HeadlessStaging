@@ -19,7 +19,7 @@ U 1 1 6183E84F
 P 1850 3250
 F 0 "U1" H 1850 5815 50  0000 C CNN
 F 1 "Teensy4.1" H 1850 5724 50  0000 C CNN
-F 2 "" H 1450 3650 50  0001 C CNN
+F 2 "digikey-footprints:TEENSY4.1" H 1450 3650 50  0001 C CNN
 F 3 "" H 1450 3650 50  0001 C CNN
 	1    1850 3250
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 618469B5
 P 4850 1950
 F 0 "J1" H 4570 1883 50  0000 R CNN
 F 1 "MIDI OUT" H 4570 1974 50  0000 R CNN
-F 2 "" H 4850 1950 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ311_Horizontal" H 4850 1950 50  0001 C CNN
 F 3 "~" H 4850 1950 50  0001 C CNN
 	1    4850 1950
 	-1   0    0    1   
@@ -86,7 +86,7 @@ U 1 1 6184AB99
 P 3750 3100
 F 0 "J2" H 3470 3033 50  0000 R CNN
 F 1 "MIDI IN" H 3470 3124 50  0000 R CNN
-F 2 "" H 3750 3100 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ311_Horizontal" H 3750 3100 50  0001 C CNN
 F 3 "~" H 3750 3100 50  0001 C CNN
 	1    3750 3100
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 6184F018
 P 5100 3050
 F 0 "U1" H 5100 3517 50  0000 C CNN
 F 1 "6N138" H 5100 3426 50  0000 C CNN
-F 2 "" H 5390 2750 50  0001 C CNN
+F 2 "Package_SO:SOP-8_6.62x9.15mm_P2.54mm" H 5390 2750 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf" H 5390 2750 50  0001 C CNN
 	1    5100 3050
 	1    0    0    -1  
@@ -456,4 +456,55 @@ Text GLabel 8300 6150 0    50   Input ~ 0
 GND
 Text GLabel 7500 4150 2    50   Input ~ 0
 UP
+Text GLabel 750  3000 0    50   Input ~ 0
+RX1
+Text GLabel 750  1300 0    50   Input ~ 0
+TX1
+Text GLabel 2950 1300 2    50   Input ~ 0
++3V3
+$Comp
+L dk_Slide-Switches:EG1218 S1
+U 1 1 618EDC10
+P 10100 2450
+F 0 "S1" V 10054 2594 50  0000 L CNN
+F 1 "SLIDE_SWITCH" V 10145 2594 50  0000 L CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 10300 2650 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 10300 2750 60  0001 L CNN
+F 4 "EG1903-ND" H 10300 2850 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 10300 2950 60  0001 L CNN "MPN"
+F 6 "Switches" H 10300 3050 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 10300 3150 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 10300 3250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 10300 3350 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 10300 3450 60  0001 L CNN "Description"
+F 11 "E-Switch" H 10300 3550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10300 3650 60  0001 L CNN "Status"
+	1    10100 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 1900 10100 2250
+NoConn ~ 10000 2650
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 618F504C
+P 10100 1700
+F 0 "J4" V 10162 1744 50  0000 L CNN
+F 1 "TO_RASP_VIN" V 10253 1744 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10100 1700 50  0001 C CNN
+F 3 "~" H 10100 1700 50  0001 C CNN
+	1    10100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 618F7C2D
+P 10200 2850
+F 0 "J5" V 10354 2762 50  0000 R CNN
+F 1 "TO_BAT_MODULE" V 10263 2762 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10200 2850 50  0001 C CNN
+F 3 "~" H 10200 2850 50  0001 C CNN
+	1    10200 2850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

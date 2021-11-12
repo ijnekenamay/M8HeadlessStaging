@@ -1,0 +1,262 @@
+
+(session M8HeadlessStaging_secound.ses
+  (base_design M8HeadlessStaging_secound.dsn)
+  (placement
+    (resolution um 10)
+    (component "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+      (place U3 1365000 -1322500 front 180)
+    )
+    (component "digikey-footprints:TEENSY4.1"
+      (place U1 1135100 -1083000 front 0)
+    )
+    (component "digikey-footprints:Switch_Slide_11.6x4mm_EG1218"
+      (place S1 541000 -1161000 front 90)
+    )
+    (component "digikey-footprints:0805"
+      (place R4 1204000 -1492000 front 90)
+      (place R3 1087000 -1393000 front 90)
+      (place R2 852000 -1443500 front 90)
+      (place R1 986000 -1455500 front 90)
+      (place C1 986000 -1551000 front 90)
+    )
+    (component MountingHole:MountingHole_3.2mm_M3
+      (place J5 695000 -1257500 front 0)
+      (place J4 1057500 -912500 front 0)
+    )
+    (component Connector_Audio:Jack_3.5mm_PJ311_Horizontal
+      (place J2 1073000 -1573000 front 180)
+      (place J1 887000 -1573000 front 180)
+    )
+    (component "digikey-footprints:SOD-123"
+      (place D1 1268000 -1466000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.9)-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +3V3
+        (wire
+          (path F.Cu 4000
+            893800 -1007000
+            893800 -1042694
+            827917 -1108577
+            827917 -1548719
+            877702 -1598504
+            934497 -1598504
+            962474 -1570527
+            962474 -1564026
+            986000 -1540500
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            997487 -1456487
+            986000 -1445000
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1087000 -1403500
+            1276850 -1403500
+            1319750 -1360600
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1081499 -1403500
+            1087000 -1403500
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1081499 -1403500
+            1075997 -1403500
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            986000 -1529497
+            997487 -1518010
+            997487 -1456487
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            997487 -1456487
+            1023010 -1456487
+            1075997 -1403500
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            986000 -1540500
+            986000 -1529497
+          )
+        )
+      )
+      (net "Net-(J1-PadR)"
+        (wire
+          (path F.Cu 4000
+            922000 -1586000
+            922000 -1573497
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            922000 -1573497
+            986000 -1509497
+            986000 -1466000
+          )
+        )
+      )
+      (net "Net-(J1-PadT)"
+        (wire
+          (path F.Cu 4000
+            852000 -1454000
+            852000 -1465003
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            852000 -1548000
+            867003 -1548000
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            867003 -1548000
+            867003 -1480006
+            852000 -1465003
+          )
+        )
+      )
+      (net TX1
+        (wire
+          (path F.Cu 4000
+            852000 -1433000
+            852000 -1421997
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            852000 -1421997
+            893800 -1380197
+            893800 -1159000
+          )
+        )
+      )
+      (net RX1
+        (wire
+          (path F.Cu 4000
+            1325600 -1159000
+            1325600 -1224046
+            1302990 -1246656
+            1302990 -1293040
+            1319750 -1309800
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1087000 -1382500
+            1247050 -1382500
+            1319750 -1309800
+          )
+        )
+      )
+      (net "Net-(J2-PadR)"
+        (wire
+          (path F.Cu 4000
+            1204000 -1502500
+            1204000 -1513503
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1108000 -1586000
+            1123003 -1586000
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1123003 -1586000
+            1195500 -1513503
+            1204000 -1513503
+          )
+        )
+      )
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path F.Cu 4000
+            1268000 -1481750
+            1268000 -1472247
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1268000 -1472247
+            1273203 -1472247
+            1410250 -1335200
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1215003 -1481500
+            1215253 -1481750
+            1268000 -1481750
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1204000 -1481500
+            1215003 -1481500
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 4000
+            1038000 -1548000
+            1053003 -1548000
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1053003 -1548000
+            1150753 -1450250
+            1268000 -1450250
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1268000 -1450250
+            1268000 -1440747
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            1268000 -1440747
+            1279303 -1440747
+            1410250 -1309800
+          )
+        )
+      )
+    )
+  )
+)

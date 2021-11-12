@@ -1,4 +1,4 @@
-20060558315457343
+20063831774585351
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85841,6 +85841,13 @@ SOIC-28_W7.5mm
 28
 28
 digikey-footprints
+SOIC-48
+
+
+0
+48
+48
+digikey-footprints
 SOP-4_W3.81mm
 
 
@@ -86183,6 +86190,13 @@ file:///C:/Users/alex_wegscheid/Downloads/EST02896_MR25H256-MR25H256A_Combined%2
 0
 8
 8
+digikey-footprints
+TEENSY4.1
+
+
+0
+48
+48
 digikey-footprints
 TERM_BLOCK_1x3_P5.08MM
 http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf
