@@ -38,6 +38,9 @@ The setup for using the m8c and Raspberry Pi can be seen in detail in the little
 [![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
 
 Since this video shows video and audio output from the HDMI port, we will assume that audio output is available using a 3.5mm stereo jack if you use a touch display with audio output, available from [Aliexpress](https://aliexpress.com/item/4000380101537.html).
+Or I'm thinking of getting the sound through a DAC module.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">hacked together a quick teensy 4.1 midi i/o and audio out board for making it a bit easier to use the <a href="https://twitter.com/hashtag/m8tracker?src=hash&amp;ref_src=twsrc%5Etfw">#m8tracker</a> headless version in my dawless setup <a href="https://t.co/O24RRRLSRL">pic.twitter.com/O24RRRLSRL</a></p>&mdash; Jonne Kokkonen (@laamaa) <a href="https://twitter.com/laamaa/status/1404158507188985856?ref_src=twsrc%5Etfw">June 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
