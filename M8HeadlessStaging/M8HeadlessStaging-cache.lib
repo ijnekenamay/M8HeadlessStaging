@@ -23,6 +23,23 @@ X ~ T 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x01_Male
+#
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x10_Male
 #
 DEF Connector_Conn_01x10_Male J 0 40 Y N 1 F N
@@ -280,6 +297,33 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Slide-Switches_EG1218
+#
+DEF dk_Slide-Switches_EG1218 S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "dk_Slide-Switches_EG1218" 0 -210 50 H V C CNN
+F2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1903-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "EG1218" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE SPDT 200MA 30V" 200 1000 60 H I L CNN "Description"
+F11 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
