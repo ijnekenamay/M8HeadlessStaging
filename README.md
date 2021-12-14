@@ -18,6 +18,9 @@ I haven't actually tried Teensy yet due to short of semiconductors...
 
 ## Latest Status
 
+<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image7.jpg" width="320">
+<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image6.jpg" width="320">
+<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image8.jpg" width="320">
 Test build was done on the fabricated PCB. It seems to be working well for the most part.
 I deleted the KiCAD file due to a problem with the MIDI I/O circuit.
 
