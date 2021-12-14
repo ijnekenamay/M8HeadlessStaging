@@ -27,8 +27,6 @@ I deleted the KiCAD file due to a problem with the MIDI I/O circuit.
 ## Design Outline
 
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image1.jpg)
-<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image3.jpg" width="320">
-<img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image4.jpg" width="320">
 
 - M8 Headless will be installed on teensy4.1.
 - The client software for Headless is [m8c](https://github.com/laamaa/m8c), which is published by laamaa.
