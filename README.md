@@ -3,6 +3,8 @@
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/head.jpg)
 This is a DIY project to push the [Dirtywave M8 Headless](https://github.com/Dirtywave/M8HeadlessFirmware) into a PCB and make it handheld.
 
+The test build is now complete and MIDI I/O AUDIO OUT is working.
+
 ## Now progress
 
 - [x] Idea sketch
