@@ -2,8 +2,7 @@
 
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/head.jpg)
 This is a DIY project to push the [Dirtywave M8 Headless](https://github.com/Dirtywave/M8HeadlessFirmware) into a PCB and make it handheld.
-
-The test build is now complete and MIDI I/O AUDIO OUT is working.
+Test build was done on the fabricated PCB. MIDI I/O AUDIO OUT seems to be working well.
 
 ## Now progress
 
@@ -20,8 +19,6 @@ The test build is now complete and MIDI I/O AUDIO OUT is working.
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image7.jpg" width="320">
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image6.jpg" width="320">
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image8.jpg" width="320">
-Test build was done on the fabricated PCB. It seems to be working well for the most part.
-I deleted the KiCAD file due to a problem with the MIDI I/O circuit.
 
 ## Design Outline
 
@@ -94,6 +91,5 @@ I think I will agonize over where to put the batteries!
 ---
 
 James' work has addressed some of the concerns of this project!
-
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image2.jpg" width="320">
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image5.jpg" width="420">
