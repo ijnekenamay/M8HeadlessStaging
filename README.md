@@ -3,6 +3,7 @@
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/head.jpg)
 This is a DIY project to push the [Dirtywave M8 Headless](https://github.com/Dirtywave/M8HeadlessFirmware) into a PCB and make it handheld.
 Test build was done on the fabricated PCB. MIDI I/O AUDIO OUT seems to be working well.
+Kicad data has been withheld from the public due to criticism that it would damage the market. Please contact.
 
 ## Now progress
 
@@ -20,6 +21,14 @@ Test build was done on the fabricated PCB. MIDI I/O AUDIO OUT seems to be workin
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image6.jpg" width="320">
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image8.jpg" width="320">
 
+## Build
+# Parts list
+- Raspberry Pi 3 Model B+(Raspberry Pi 4 Model B is better)
+- Teensy 4.1
+- Display for the Raspberry Pi (You can find them at [Aliexpress](https://aliexpress.com/item/4000380101537.html))
+- pcm5102dac decorder (You can find them at [Aliexpress](https://aliexpress.com/item/1005002898278583.html))
+- Kailh Low profile key switch (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html))
+- 
 ## Design Outline
 
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image1.jpg)
