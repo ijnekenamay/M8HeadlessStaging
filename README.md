@@ -53,8 +53,43 @@ https://github.com/DirtyWave/M8Docs/blob/main/docs/M8HeadlessSetup.md
 - Setup key switches
 
 ### Setup m8c
+The client software for Headless is [m8c](https://github.com/laamaa/m8c), which is published by laamaa.
+The setup for using the m8c and Raspberry Pi can be seen in detail in the littlescale video.
+[![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
+
+### Setup full screen
+You can set the fullscreen in the config in the m8c installation folder.
+
+### Setup autostart
+Put in a general autostart program.It's probably faster to ask Google than to ask me.
+Then KICK The m8c startup command, ". /m8c".
+
+### Setup shutdown key(Use Tact switch)
+This one also plants a commonly used shutdown program. We connected the GND of the tact switch and the "shutdown button" pad on the PCB to GPIO5 (PIN29) and GND (PIN30) respectively.
+This is because pins 1 to 28 are blocked by the display.
+https://www2.quartoknows.com/page/raspberry-pi-shutdown-button
+
+### Setup key switches
+Key mapping is done using a program called "GPIONext", which is often used in RetroPi.
+The GND must be connected to PIN39 or PIN34, but the other pins can be configured as you like. Use a wire to arrange the wires.
+https://github.com/mholgatem/GPIOnext
+
+The key layout to be set should follow the m8c manual.
+
+Keys for controlling the progam:
+- Up arrow = up
+- Down arrow = down
+- Left arrow = left
+- Right arrow = right
+- a / left shift = select
+- s / space = start
+- z / left alt = opt
+- x / left ctrl = edit
 
 
+
+The following is a memorandum for development, but I leave it here just in case.
+------------------------
 
 ## Design Outline
 
