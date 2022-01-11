@@ -87,6 +87,14 @@ Keys for controlling the progam:
 - z / left alt = opt
 - x / left ctrl = edit
 
+## Other Parts
+Other parts, such as the DAC module, simply need to be soldered as shown in the image to function.
+
+
+
+
+
+
 
 
 The following is a memorandum for development, but I leave it here just in case.
