@@ -31,7 +31,7 @@ You need Partially arranged wire by hand.
 - Display for the Raspberry Pi (You can find them at [Aliexpress](https://aliexpress.com/item/4000380101537.html)) *1
 - PCM5102dac decorder (You can find them at [Aliexpress](https://aliexpress.com/item/1005002898278583.html)) *1
 - Kailh Low profile key switch with cap (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html)) *8
-- 3.7V Litium poly battery (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html)) *1
+- 3.7V Litium poly battery (You can find them at Aliexpress) *1
 - Ajustable battery module (You can find them at [Aliexpress](https://ja.aliexpress.com/item/4000087101515.html)) *1
 - Slide switch (2.54mm pich) *1
 - Tact switch (6mm*6mm) *1
