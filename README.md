@@ -55,6 +55,7 @@ https://github.com/DirtyWave/M8Docs/blob/main/docs/M8HeadlessSetup.md
 ### Setup m8c
 The client software for Headless is [m8c](https://github.com/laamaa/m8c), which is published by laamaa.
 The setup for using the m8c and Raspberry Pi can be seen in detail in the littlescale video.
+
 [![littlescale](http://img.youtube.com/vi/CqUvGfdyEnM/0.jpg)](https://www.youtube.com/watch?v=CqUvGfdyEnM)
 
 ### Setup full screen
