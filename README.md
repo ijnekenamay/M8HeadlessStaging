@@ -21,14 +21,41 @@ Kicad data has been withheld from the public due to criticism that it would dama
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image6.jpg" width="320">
 <img src="https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image8.jpg" width="320">
 
-## Build
-# Parts list
-- Raspberry Pi 3 Model B+(Raspberry Pi 4 Model B is better)
-- Teensy 4.1
-- Display for the Raspberry Pi (You can find them at [Aliexpress](https://aliexpress.com/item/4000380101537.html))
-- pcm5102dac decorder (You can find them at [Aliexpress](https://aliexpress.com/item/1005002898278583.html))
-- Kailh Low profile key switch (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html))
-- 
+# Build
+It works almost perfectly, except for the audio input.
+You need Partially arranged wire by hand.
+## Parts list
+- Raspberry Pi 3 Model B+(Raspberry Pi 4 Model B is better) *1
+- Teensy 4.1 *1
+- 90 deglee USB cable(You can find them at [Aliexpress](https://ja.aliexpress.com/item/10000315945874.html)) *1
+- Display for the Raspberry Pi (You can find them at [Aliexpress](https://aliexpress.com/item/4000380101537.html)) *1
+- PCM5102dac decorder (You can find them at [Aliexpress](https://aliexpress.com/item/1005002898278583.html)) *1
+- Kailh Low profile key switch with cap (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html)) *8
+- 3.7V Litium poly battery (You can find them at [Aliexpress](https://ja.aliexpress.com/item/32959996455.html)) *1
+- Ajustable battery module (You can find them at [Aliexpress](https://ja.aliexpress.com/item/4000087101515.html)) *1
+- Slide switch (2.54mm pich) *1
+- Tact switch (6mm*6mm) *1
+- 30mm long hex spacer *4
+- 15mm long hex spacer *4
+- 6N138 optocoupler *1
+- other resistors and capacitor (STM assenbly use by JLCPCB)
+
+## Setup Teensy
+Be sure to follow the official manual.
+The version you install must be 2.0.5. Otherwise, the midi i/o will not work.
+https://github.com/DirtyWave/M8Docs/blob/main/docs/M8HeadlessSetup.md
+
+## Setup Raspberry Pi
+- Setup m8c
+- Setup full screen
+- Setup autostart
+- Setup shutdown key(Use Tact switch)
+- Setup key switches
+
+### Setup m8c
+
+
+
 ## Design Outline
 
 ![Design Sketch](https://github.com/ijnekenamay/M8HeadlessStaging/raw/main/image1.jpg)
